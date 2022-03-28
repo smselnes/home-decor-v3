@@ -1,0 +1,36 @@
+footer {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  bottom: 0;
+  box-shadow: 0px 0px 2px 1px var(--color-brown);
+}
+
+.footer__menu {
+  display: grid;
+  color: var(--color-dark);
+  margin: 1rem 0 2rem 0;
+}
+.footer__menu--item {
+  margin: 0.5rem;
+}
+
+.footer__menu--item:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 601px) {
+  .footer__menu--item {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .socialmedia__link {
+    font-size: 1.8rem;
+  }
+}

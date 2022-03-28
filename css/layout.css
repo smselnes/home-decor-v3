@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url(/images/textures/paper.png);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-dark);
+}
+.signature {
+  text-align: center;
+  font-size: 0.7rem;
+  margin-top: 10px;
+}
