@@ -4,6 +4,7 @@
   right: 0;
   left: 0;
   text-align: center;
+  color: var(--color-dark);
 }
 
 .collection__image {
@@ -11,7 +12,7 @@
   margin: auto;
   margin-bottom: 2rem;
   filter: drop-shadow(-1px 0px 3px var(--color-dark));
-  opacity: 0.8;
+  opacity: 0.4;
 }
 
 .categories {
@@ -51,14 +52,18 @@
   right: 0;
 }
 
-@media (min-width: 400px) {
-  .products__introduction {
-    font-size: 1.5rem;
-  }
-}
-
 @media (min-width: 768px) {
   .categories {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .categories {
+    margin-top: 0;
+  }
+
+  .products__introduction {
+    width: 50%;
+    margin: auto;
+    padding-top: 3rem;
   }
 }

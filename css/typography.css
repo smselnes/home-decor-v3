@@ -1,34 +1,40 @@
 body {
-  font-family: "Kanit", sans-serif;
+  font-family: Kanit, sans-serif;
 }
 
 h1,
 h2,
 h3,
-a,
-li {
-  font-family: "Radley", serif;
+h4,
+h5,
+h6,
+a {
+  font-family: "Cormorant Upright", serif;
+}
+
+main a {
+  font-family: "Noto Serif Display", serif;
 }
 
 .text__block {
   text-align: left;
   margin: 10px 20px;
   background-color: var(--color-dark-soft);
-  font-size: 1.2rem;
   padding: 5px;
   border-radius: 5px;
 }
 
 @media (min-width: 601px) {
   .text__block {
-    width: 50%;
     margin: 1rem auto;
   }
 }
 
 @media (min-width: 768px) {
-  .text__block {
+  p {
     font-size: 1.5rem;
+  }
+  .text__block {
     width: 500px;
   }
 
